@@ -9,7 +9,7 @@ from database import db                             # Acá importamos la base de
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "https://vacantes-front.onrender.com/"}}, supports_credentials=True)
 
 
 # ENCRIPTACION JWT y BCRYPT-------
