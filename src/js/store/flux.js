@@ -17,7 +17,7 @@ const getState = ({ getStore, getActions, setStore }) => {
             password: password,
           };
 
-          const response = await fetch("https://vacantes-s4ce.onrender.com/admin/user", {
+          const response = await fetch("https://vacantes-s4ce.onrender.com/admin/users", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
